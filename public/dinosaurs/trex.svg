@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Body -->
+  <path d="M300,200 C350,180 400,200 400,250 C400,300 350,320 300,320 C250,320 200,300 200,250 C200,200 250,180 300,200" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Rib Cage and Hip Structure -->
+  <path d="M320,220 C340,210 360,220 360,240" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M280,220 C260,210 240,220 240,240" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M300,280 C320,290 340,280 340,260" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Head - More Accurate Shape -->
+  <path d="M400,250 C420,240 440,250 450,270 C450,290 440,300 420,300 C410,300 400,290 400,280" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Jaw Structure -->
+  <path d="M420,300 C430,300 440,290 440,280 C440,270 430,260 420,260" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Teeth - More Accurate Arrangement -->
+  <path d="M430,280 L435,275" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M430,285 L435,280" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M430,290 L435,285" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M430,295 L435,290" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Eyes - More Accurate Position -->
+  <circle cx="440" cy="270" r="3" fill="black"/>
+  <circle cx="440" cy="270" r="1" fill="white"/>
+  
+  <!-- Nostrils -->
+  <circle cx="445" cy="260" r="2" fill="black"/>
+  
+  <!-- Arms - More Accurate Size and Position -->
+  <path d="M380,250 C375,240 370,235 365,240" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M365,240 C360,245 355,250 350,245" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Claws -->
+  <path d="M350,245 L345,240 L355,240" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Legs - More Accurate Musculature -->
+  <path d="M320,320 C320,340 310,350 300,350" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M280,320 C280,340 290,350 300,350" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Feet - More Accurate Shape -->
+  <path d="M300,350 L290,360 L310,360" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Tail - More Accurate Balance Structure -->
+  <path d="M200,250 C150,250 100,200 100,150 C100,100 150,80 200,100" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Tail Details -->
+  <path d="M180,230 C160,220 140,210 120,200" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M180,240 C160,230 140,220 120,210" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Scales - More Accurate Pattern -->
+  <circle cx="300" cy="250" r="1.5" fill="black"/>
+  <circle cx="320" cy="260" r="1.5" fill="black"/>
+  <circle cx="280" cy="260" r="1.5" fill="black"/>
+  <circle cx="340" cy="270" r="1.5" fill="black"/>
+  <circle cx="260" cy="270" r="1.5" fill="black"/>
+  
+  <!-- Muscle Definition -->
+  <path d="M320,240 C330,235 340,240 340,250" fill="none" stroke="black" stroke-width="0.5"/>
+  <path d="M280,240 C270,235 260,240 260,250" fill="none" stroke="black" stroke-width="0.5"/>
+</svg> 
