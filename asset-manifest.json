@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/dinosaur-coloring-game/static/js/main.5dd2163d.js",
+    "index.html": "/dinosaur-coloring-game/index.html",
+    "main.5dd2163d.js.map": "/dinosaur-coloring-game/static/js/main.5dd2163d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5dd2163d.js"
+  ]
+}
