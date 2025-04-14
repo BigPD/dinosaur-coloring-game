@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Dinosaur Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .dinosaur {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Download Dinosaur Images</h1>
+    <p>Click the buttons below to download each dinosaur image. Save them in the <code>public/dinosaurs/real/</code> directory.</p>
+    
+    <div class="dinosaur">
+        <h2>T-Rex</h2>
+        <a href="https://cdn.pixabay.com/photo/2020/12/27/20/25/dinosaur-5865129_1280.png" download="trex.png">
+            <button>Download T-Rex</button>
+        </a>
+    </div>
+
+    <div class="dinosaur">
+        <h2>Stegosaurus</h2>
+        <a href="https://cdn.pixabay.com/photo/2020/12/27/20/25/dinosaur-5865130_1280.png" download="stegosaurus.png">
+            <button>Download Stegosaurus</button>
+        </a>
+    </div>
+
+    <div class="dinosaur">
+        <h2>Triceratops</h2>
+        <a href="https://cdn.pixabay.com/photo/2020/12/27/20/25/dinosaur-5865131_1280.png" download="triceratops.png">
+            <button>Download Triceratops</button>
+        </a>
+    </div>
+
+    <div class="dinosaur">
+        <h2>Brachiosaurus</h2>
+        <a href="https://cdn.pixabay.com/photo/2020/12/27/20/25/dinosaur-5865132_1280.png" download="brachiosaurus.png">
+            <button>Download Brachiosaurus</button>
+        </a>
+    </div>
+
+    <div class="dinosaur">
+        <h2>Velociraptor</h2>
+        <a href="https://cdn.pixabay.com/photo/2020/12/27/20/25/dinosaur-5865133_1280.png" download="velociraptor.png">
+            <button>Download Velociraptor</button>
+        </a>
+    </div>
+
+    <div style="margin-top: 20px; padding: 10px; background-color: #f8f9fa; border-radius: 5px;">
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Click each button to download the dinosaur images</li>
+            <li>Save all images in the <code>public/dinosaurs/real/</code> directory</li>
+            <li>Make sure to save them with the exact names shown above</li>
+            <li>After downloading all images, restart your React application</li>
+        </ol>
+    </div>
+</body>
+</html> 
